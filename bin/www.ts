@@ -22,7 +22,7 @@ server.on("error", onError);
 server.on("listening", onListening);
 
 /**
- * Normali<e a port into a number, string or false.
+ * Normalize a port into a number, string or false.
  * @param val port number
  * @returns port number sanitized
  */
@@ -42,7 +42,7 @@ function normalizePort(val: any) {
 
 /**
  * Event listener for HTTP server "error" event.
- * @param error error fired
+ * @param error fired
  */
 function onError(error: any) {
 	if (error.syscall !== "listen") {
